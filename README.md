@@ -19,6 +19,8 @@ Usage is also simple, I wanted to make sure the user flow was unintrusive and si
 
 Just so I cover all bases, all you need to do is click **Get Started** and then enter your information (name, address info) and then choose the government legislator you want to write to in the dropdown menu and then compose away!
 
+If you run into any errors I didn't manage to handle, just refresh and try composing a letter again from the start.
+
 ## Final Thoughts
 I hope you guys like it, I put a lot of work into it (I put off studying for tests so I could work on this, it was **that** fun) and I hope to hear back from you guys.
 
