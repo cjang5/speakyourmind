@@ -11,6 +11,11 @@ for how I wanted it to look (I'm really into product design/UX design) that I *m
 Setup is simple, just unzip the file and then navigate to **api_key.js**
 In there, you can copy + paste your [Google Civic API key](https://developers.google.com/civic-information/docs/using_api) and Lob API key to get the application working.
 
+After you set up the API keys, just open up Chrome and open up the **index.html** in-browser. It'll probably be somewhere like:
+    /Users/USER/Downloads/Lob_exercise_chrisjang/index.html
+    
+Or you can alternatively go to [chrisjang.com/speakyourmind](http://chrisjang.com/speakyourmind) where I'm hosting it thru Github. It *should* give you the same experience.
+
 Also, it's a bit buggy on other browsers, so I *highly* recommend viewing this on **Chrome** (Sorry!)
 I also apologize for any margin/padding/spacing errors you may find, I didn't have much time to make it a good responsive design for browsers/resolutions other than my Macbook Pro!
 
