@@ -11,6 +11,9 @@ for how I wanted it to look (I'm really into product design/UX design) that I *m
 Setup is simple, just unzip the file and then navigate to **api_key.js**
 In there, you can copy + paste your [Google Civic API key](https://developers.google.com/civic-information/docs/using_api) and Lob API key to get the application working.
 
+Also, it's a bit buggy on other browsers, so I *highly* recommend viewing this on **Chrome** (Sorry!)
+I also apologize for any margin/padding/spacing errors you may find, I didn't have much time to make it a good responsive design for browsers/resolutions other than my Macbook Pro!
+
 ## Usage
 Usage is also simple, I wanted to make sure the user flow was unintrusive and simple enough to understand all the while providing the best user experience possible.
 
