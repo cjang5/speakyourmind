@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Your Legislator | Lob</title>
+
+    <!-- CSS, Libraries -->
+    <link rel='stylesheet' href='./css/index.css'>
+  </head>
+
+  <body>
+    <div class='container'>
+      <div class='mainCard intro'>
+        <div class='header'>
+          <h2 id='one'>CONTACT YOUR</h2>
+          <h1 id='two'>Government</h1>
+        </div>
+        <p>
+          Do you have something to say to your government representatives? Perhaps some input on a piece of legislation or maybe you want something clarified?
+        </p>
+        <p>
+          We can help you get in touch with your designated legislators, just take a minute to provide some basic info so we can point you in the right direction!
+        </p>
+
+        <div class='buttonWrapper'>
+          <button id='getstarted' class='primary red'>
+            <span>Get Started</span>
+          </button>
+        </div>
+      </div>
+
+      <div class='mainCard prelim'>
+        <div class='header'>
+          <h2 id='one'>FIND YOUR</h2>
+          <h1 id='two'>Legislator</h1>
+        </div>
+        <form class='address'>
+          <div class='row'>
+            <div class='inputGroup firstName' style='margin-right: 10px;'>
+              <p class='inputTitle' style='float: left;'>First Name</p>
+              <img id='dot' src='img/dot.svg'>
+              <input id='firstName' placeholder='E.g. Joe' style='width: 100%;' autocomplete='off'>
+            </div>
+            <div class='inputGroup middleName' style=' margin-right: 10px;'>
+              <p class='inputTitle' style='float: left;'>Middle Name</p>
+              <input id='middleName' placeholder='E.g. Average' style='width: 100%;' autocomplete='off'>
+            </div>
+            <div class='inputGroup lastName' style=''>
+              <p class='inputTitle' style='float: left;'>Last Name</p>
+              <img id='dot' src='img/dot.svg'>
+              <input id='lastName' placeholder='E.g. Schmoe' style='width: 100%;' autocomplete='off'>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='inputGroup line1' style='margin-right: 10px; flex-basis: 65%'>
+              <p class='inputTitle' style='float: left;'>Address Line 1</p>
+              <img id='dot' src='img/dot.svg'>
+              <input id='line1' placeholder='E.g. 1234 Street Avenue' style='width: 100%;' autocomplete='off'>
+            </div>
+            <div class='inputGroup line2' style='flex-basis: 35%;'>
+              <p class='inputTitle' style='float: left;'>Address Line 2</p>
+              <input id='line2' placeholder='E.g. Apartment 42' style=' width: 100%;' autocomplete='off'>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='inputGroup city' style='flex-basis: 50%; margin-right: 10px;'>
+              <p class='inputTitle' style='float: left;'>City</p>
+              <img id='dot' src='img/dot.svg'>
+              <input id='city' placeholder='E.g. Rancho Santa Margarita' style='width: 100%;' autocomplete='off'>
+            </div>
+            <div class='inputGroup state' style='flex-basis: 30%; margin-right: 10px;'>
+              <p class='inputTitle' style='float: left;'>State</p>
+              <img id='dot' src='img/dot.svg'>
+              <input id='state' placeholder='E.g. Illinois OR IL' style='width: 100%;' autocomplete='off'>
+            </div>
+            <div class='inputGroup zipcode' style='flex-basis: 17%;'>
+              <p class='inputTitle' style='float: left;'>ZIP Code</p>
+              <img id='dot' src='img/dot.svg'>
+              <input id='zipcode' placeholder='12345' style='width: 100%;' autocomplete='off'>
+            </div>
+          </div>
+        </form> <!-- Form -->
+        <div id='blurb'>
+          <span>Don't worry, we won't store your personal information!</span>
+          <img style='height: 0.65em;' src='img/Smiley.svg'>
+        </div>
+
+        <div class='buttonWrapper'>
+          <button id='search' class='primary red disabled' disabled=true>
+            <span>Search</span>
+            <img class='spin' id='spinner' src='img/spinner.svg'>
+          </button>
+        </div>
+      </div> <!-- prelim -->
+
+      <div class='mainCard letter'>
+        <div class='header'>
+          <h2 id='one'>CONTACT YOUR</h2>
+          <h1 id='two'>Legislator</h1>
+        </div>
+        <div class='dropdown' style='position: relative;'>
+          <p class='inputTitle' style='float: left;'>Recipient</p>
+          <img id='dot' src='img/dot.svg'>
+          <button class='dropdown-select'><span id='placeholder'>Select your desired representative</span><span id='name'></span><span id='role'></span><img id='chevron' src='img/chevron.svg'></button>
+          <div class='dropdown-items'>
+            <ul class='rep-list'>
+            </ul>
+          </div>
+        </div>
+        <div class='textarea'>
+          <p class='inputTitle' style='float: left;'>Letter Body</p>
+          <img id='dot' src='img/dot.svg'>
+          <textarea disabled class='disabled' id='letter-body' placeholder='Write your letter here'></textarea>
+        </div>
+        <p class='wordCount' style='float: right;'>0 words</p>
+
+        <div class='buttonWrapper' style='margin-top: 2em; justify-content: space-between;'>
+          <a href='' id='startOver'>
+            <img src='img/chevron2.svg'>
+            <span>Start Over</span>
+          </a>
+          <button id='send' class='primary red disabled' disabled=true>
+            <span>Finish</span>
+            <img class='spin' id='spinner' src='img/spinner.svg'>
+          </button>
+          <a href='' style='visibility: hidden;'>
+            <img src='img/chevron2.svg'>
+            <span>Start Over</span>
+          </a>
+        </div>
+      </div>
+
+      <div class='mainCard final'>
+        <div class='header'>
+          <h1 id='two'>Success!</h1>
+        </div>
+        <p id='finalMessage'>
+          Your letter to <span id='recipient' style='color: #5c95e5;'></span> has successfully been sent! Expect it to arrive around <span style='color: #5c95e5;' id='expectedDate'></span>. You can go ahead and view your finished letter or you can go back and send another letter if you want.
+        </p>
+
+        <div class='finalButtons'>
+          <a href='' class='finalButton' target=_blank id='viewLetter' style='margin-right: 2.5em;'>
+            <img src='img/viewletter.svg'>
+            <p>View Finished Letter</p>
+          </a>
+          <a href='' class='finalButton' id='newLetter'>
+            <img src='img/newletter.svg'>
+            <p>Compose New Letter</p>
+          </a>
+        </div>
+
+      </div>
+
+      <div class='footer'>
+        <h3>POWERED BY</h3>
+        <div class='brands'>
+          <div class='lob'>
+            <a href='http://lob.com' target=_blank>
+              <img id='loblogo' src='img/LobLogoColor.svg'>
+            </a>
+          </div>
+          <div id='plus'>
+            <span>+</span>
+          </div>
+          <div>
+            <a href='https://developers.google.com/civic-information/' target=_blank>
+              <img id='googlelogo' src='img/googlelogo.svg'>
+            </a>
+          </div>
+        </div>
+      </div> <!-- Footer -->
+
+      <!-- Notifications -->
+      <div class='notification'>
+        <div class='title'>
+          OOPS!
+          <a id='x-notif' style='fill: white; float: right;'><img style='height: 0.8em;' src='img/times.svg'></a>
+        </div>
+        <div class='body'>
+          There appears to have been an error.
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <!-- Scripts -->
+  <script src='./js/index.js'></script>
+  <script src='./js/api_key.js'></script>
+</html>

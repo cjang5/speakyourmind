@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Smiley</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1210.000000, -646.000000)">
+            <g id="Prelim-Info-page" transform="translate(470.000000, 213.000000)">
+                <g id="Smiley" transform="translate(740.000000, 433.000000)">
+                    <path d="M0.839926727,8.84742814 C0.839926727,8.84742814 2.23803771,10.9645978 4.58371818,11.3726474 C6.33717198,11.6776744 9.15722284,11.3436677 11.0675675,9.02800186 C11.8007308,8.13928203 12.5135483,6.42597699 12.2577465,5.10999081" id="Path-2" stroke="#414141" stroke-width="2"></path>
+                    <path d="M1.5,6 C2.32842712,6 3,5.32842712 3,4.5 C3,3.67157288 2.32842712,3 1.5,3 C0.671572875,3 0,3.67157288 0,4.5 C0,5.32842712 0.671572875,6 1.5,6 Z M8.5,3 C9.32842712,3 10,2.32842712 10,1.5 C10,0.671572875 9.32842712,0 8.5,0 C7.67157288,0 7,0.671572875 7,1.5 C7,2.32842712 7.67157288,3 8.5,3 Z" id="Combined-Shape" fill="#414141"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
